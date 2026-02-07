@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+    font-family: Arial;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.section img {
+    width: 600px;
+    height: auto;
+}
+
+.text {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d8cfc4;
+}
